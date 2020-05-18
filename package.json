@@ -7,7 +7,7 @@
     "sucrase": "^3.14.0"
   },
   "scripts": {
-    "dev": "nodemon ./src/index.js",
-    "dev:debug": "nodemon --inspect index.js"
+    "dev:debug": "nodemon --inspect index.js",
+    "dev": "nodemon ./src/index.js"
   }
 }
