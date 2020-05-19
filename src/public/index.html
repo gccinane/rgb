@@ -9,15 +9,17 @@
   <body>
     <div id="container"> 
       <div class="inputs">
-        <input type="range"  id="green" class ="color">
-        <input type="range" id="blue" class ="color">
-        <input type="range" id="red" class ="color">
+        <input type="range" min="0" max="255" id="red" class ="color" value = "113">
+        <input type="range" min="0" max="255" id="green" class ="color" value = "89">
+        <input type="range" min="0" max="255" id="blue" class ="color" value = "193">
+        
       </div>
       <div class="inputs"> 
-        <input type="text" class ="colorValue" disabled>
-        <input type="text" class ="colorValue" disabled>
-        <input type="text" class ="colorValue" disabled>
+        <input type="text" class = "colorValue" id="redValue" disabled value="113">
+        <input type="text" class = "colorValue" id="greenValue" disabled value="89"> 
+        <input type="text" class = "colorValue" id="blueValue" disabled value = "193">
       </div>
     </div> 
+    <script src="app.js"></script>
   </body>
 </html>

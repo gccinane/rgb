@@ -27,8 +27,12 @@ html, body{
 
 .colorValue {
   margin: 15px;
+  width: 50px;
   border-radius: 4px;
   box-shadow: 0 0 3px;
   border-color: #c1c1c1;
+  color: #000;
+  font-weight: bold;
+  display: flex;
 }
 
